@@ -3,7 +3,7 @@ import { setCurrentBubbleTwo } from "../reducers/bubbleSort";
 import { setCurrentSwappers } from "../reducers/swappers";
 import { setCurrentSorted } from "../reducers/sorted";
 import { setRunning } from "../reducers/running";
-
+ 
 function bubbleSort(stateArray, dispatch, speed) {
   let array = stateArray.slice(0),
       toDispatch = [],
